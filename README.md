@@ -2,7 +2,7 @@
 
 # Eliciting Translation Ability for LLMs using Multilingual Finetuning with Translation Instructions
 
-This is the repo for the paper , which aims to .
+This is the repo for the paper "Eliciting the Translation Ability of Large Language Models via Multilingual Finetuning with Translation Instructions", which aims to investigate the process of eliciting translation ability of LLMs using instruction tuing, and studies how this ability generalizes to unseen language pairs.
 
 ## Requirements
 This repo requires `transformers`, `datasets`, `deepspeed` and `langcodes` as the dependency. You can install them by running the following scripts:

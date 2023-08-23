@@ -15,7 +15,7 @@ bash install.sh
 ### Training Data
 You should first download the [Wikimatrix](https://opus.nlpl.eu/WikiMatrix.php) corpus, and put into the folder `./dataset`, and prepare the translation-instruction-following datasets using the following command:
 ```
-python3 dataset_scripts/prepare_dataset.py --infile /path/to/data --outfile /path/to/outfile --srclang $srclang -tgtlang $tgtlang
+python3 dataset_scripts/prepare_dataset.py --infile /path/to/data --outfile /path/to/outfile --srclang <srclang> --tgtlang <tgtlang>
 ```
 
 ### Evaluation Data
